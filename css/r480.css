@@ -1,0 +1,22 @@
+@media screen and (max-width:480px) {
+    main {
+        height: 80vh ;
+    }
+    
+    nav {
+        display: none;
+    }
+    main #art02 {
+        margin-top: 40px;
+    }
+    footer #rights img {
+        display: none;
+    }
+    .dot {
+        margin-top: 200px;
+    }
+    main #top {
+        height: 50vh;
+        margin: 0px auto;
+    }
+}

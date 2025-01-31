@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&family=Playfair+Display&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url('../images/milkyway.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+}
+
+main {
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+
+}
+
+header #topnav nav ul {
+    list-style: none;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header #topnav nav ul li {
+    border-left: 1px solid white;
+    width: 90px;
+}
+
+header #topnav nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header #topnav nav ul li i {
+    margin: 3px;
+    color: rgb(221, 223, 225);
+}
+main #top {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 50px auto;
+    height: 30vh;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+}
+main #art01 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+   
+}
+main #art01 p {
+    margin: 0px;
+}
+main #art02 {
+    background-color:rgba(221, 223, 225,0.3);
+    width: 300px;
+    height: 180px;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px lightgray;
+    text-align: center;
+}
+main #art02 form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px auto;
+    gap: 15px;
+    align-items: center;
+}
+main #art02 form button{
+    width: 120px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+}
+main #art02 form input{
+    border-radius: 5px;
+}
+main #art02  p{
+    margin: 10px;
+}
+footer {
+    display: flex;
+    color: white;
+    width: 80%;
+    height: 10vh;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+footer #rights {
+    text-align: center;
+}
+
+footer #rights p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}

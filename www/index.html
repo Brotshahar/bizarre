@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9116118311.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/we.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dot.css">
+    <link rel="stylesheet" href="../css/r480.css">
+    <link rel="stylesheet" href="../css/r1024.css">
+    <title>BIZARRE.IL</title>
+</head>
+<header>
+    <div id="img">
+        <img src="../images/logob.png" />
+    </div>
+    <div id="topnav">
+        <nav>
+            <ul>
+                <li><a href="index.html"> דף הבית <i class="fa-solid fa-house"></i></a> </li>
+                <li><a href="category.html">קטגוריות<i class="fa-solid fa-table-cells"></i></a> </li>
+                <li><a href="persons.html">אישים<i class="fa-solid fa-person"></i></a> </li>
+                <li><a href="forum.html">פורום<i class="fa-brands fa-forumbee"></i></a> </li>
+                <li><a href="report.html">לוח דיווחים<i class="fa-solid fa-wand-sparkles "></i></a> </li>
+                <li><a href="outlinks.html">קישורים <i class="fa fa-eye"></i></a> </li>
+                <li><a href="aboutus.html">מי אנחנו<i class="fa fa-child"></i></a></li>
+                <li><a href="helpus.html">רוצים לסייע<i class="fa-brands fa-teamspeak"></i></a> </li>
+                <li><a href="contact.html">יצירת קשר<i class="fa-solid fa-envelope"></i></a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section>
+        <div id="top">
+            <div id="art01">
+                <p>כל מה שרציתם לדעת על המוזר והשונה, המיוחד והבלתי מובן.</p>
+                <p>תופעות, חייזרים, מעגלי תבואה, היסטוריה וסיפורים מהתנ"ך.</p>
+                <p>אישיים חשובים, קטגוריות נושאים וקישורים לאתרים מרכזיים בנושא. </p>
+                <p>ניתן לחפש ולדווח על אירועים, להתעדכן ולהעלות מודעות לנושא</p>
+            </div>
+            <div id="art02">
+                <p>הרשמה לתפוצה</p>
+                <form>
+                    <label for="email"> כתובת דואר אלקטרוני</label>
+                    <input type="email" id="email" />
+                    <button type="submit">הרשמה</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="dot">
+        <!-- From Uiverse.io by G4b413l -->
+        <div class="three-body">
+            <div class="three-body__dot"></div>
+            <div class="three-body__dot"></div>
+            <div class="three-body__dot"></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div id="rights">
+        <img src="../images/we.png" ; alt="we" width="150" height="120" />
+        <p> CopyRight <span id="year"></span> @ BIZARRE.Israel, All rights reserved</p>
+    </div>
+</footer>
+<script>
+    const d = new Date();
+    let year = d.getFullYear();
+    document.getElementById("year").innerHTML = year;
+</script>
+
+<body>
+
+</body>
+
+</html>
