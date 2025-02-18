@@ -11,15 +11,12 @@ body {
 header {
     text-align: center;
     width: 100%;
-    height: 20vh;
+    height: 7vh;
+    background-color:rgba(0, 0, 0, 0.473);
+    border-bottom: 1px solid white;
+    font-size: 20px;
 }
 
-main {
-    width: 100%;
-    height: 50vh;
-    margin-top: 20px;
-
-}
 
 header #topnav nav ul {
     list-style: none;
@@ -31,87 +28,152 @@ header #topnav nav ul {
 }
 
 header #topnav nav ul li {
-    border-left: 1px solid white;
-    width: 90px;
+    margin-top: 15px;
+}
+header #topnav nav ul li a:hover {
+    color: lightgray;
+    
 }
 
 header #topnav nav ul li a {
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 header #topnav nav ul li i {
-    margin: 3px;
-    color: rgb(221, 223, 225);
+    margin-right: 8px;
+ 
+}
+main #greet {
+    width: 55%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+main #images {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+main #images #image {
+    padding: 3px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+main #images img{
+    opacity: 0.8;
+    
 }
 main #top {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 60%;
+    width: 55%;
     margin: 50px auto;
-    height: 30vh;
-    justify-content: space-between;
+    justify-content: right;
     font-size: 20px;
     font-family: "Playfair Display", serif;
    font-weight: 400;
    font-style: normal;
+   font-size: 22px;
    color: white;
 }
 main #art01 {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  
-   
 }
 main #art01 p {
     margin: 0px;
 }
+main #down{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 50px;
+    font-size: 22px;
+    position: relative;
+   
+}
 main #art02 {
     background-color:rgba(221, 223, 225,0.3);
     width: 300px;
-    height: 180px;
+    height: 220px;
+    color: white;
     border-radius: 8px;
     border: 1px solid white;
     box-shadow: 3px 3px 5px lightgray;
-    text-align: center;
-}
-main #art02 form {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: 0px auto;
     gap: 15px;
+    justify-content: center;
     align-items: center;
+  
 }
-main #art02 form button{
+main #art02 button{
     width: 120px;
-    height: 25px;
+    height: 28px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
     border-radius: 8px;
+    font-size: 17px;
 }
-main #art02 form input{
+main #art02 button:hover{
+    background-color: black;
+}
+main #art02 input{
     border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    width: 200px;
+    border: none;
 }
 main #art02  p{
     margin: 10px;
+}
+main #adown {
+    width: 70%;
+    margin: 0px auto;
+    text-align: left;
+    margin: 50px;
+}
+main #adown #img002 img{
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 180px;
+    padding: 5px;
+}
+main .art03 {
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    display: none;
+    font-size: 30px;
+}
+main .art04 {
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    display: none;
+    font-size: 30px;
 }
 footer {
     display: flex;
     color: white;
     width: 80%;
-    height: 10vh;
     margin: 0px auto;
+    margin-top: 50px;
     justify-content: center;
 }
 
 footer #rights {
     text-align: center;
 }
-
 footer #rights p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;

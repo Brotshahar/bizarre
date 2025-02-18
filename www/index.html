@@ -14,9 +14,7 @@
     <title>BIZARRE.IL</title>
 </head>
 <header>
-    <div id="img">
-        <img src="../images/logob.png" />
-    </div>
+
     <div id="topnav">
         <nav>
             <ul>
@@ -26,7 +24,7 @@
                 <li><a href="forum.html">פורום<i class="fa-brands fa-forumbee"></i></a> </li>
                 <li><a href="report.html">לוח דיווחים<i class="fa-solid fa-wand-sparkles "></i></a> </li>
                 <li><a href="outlinks.html">קישורים <i class="fa fa-eye"></i></a> </li>
-                <li><a href="aboutus.html">מי אנחנו<i class="fa fa-child"></i></a></li>
+                <!-- <li><a href="aboutus.html">מי אנחנו<i class="fa fa-child"></i></a></li> -->
                 <li><a href="helpus.html">רוצים לסייע<i class="fa-brands fa-teamspeak"></i></a> </li>
                 <li><a href="contact.html">יצירת קשר<i class="fa-solid fa-envelope"></i></a> </li>
             </ul>
@@ -35,21 +33,22 @@
 </header>
 <main>
     <section>
+        <h2 id="greet" style="color: white;"></h2>
+    </section>
+    <section id="adown">
+        <div id="img002">
+            <img src="../images/bizarre.png" />
+        </div>
+    </section>
+    <section>
         <div id="top">
             <div id="art01">
                 <p>כל מה שרציתם לדעת על המוזר והשונה, המיוחד והבלתי מובן.</p>
-                <p>תופעות, חייזרים, מעגלי תבואה, היסטוריה וסיפורים מהתנ"ך.</p>
-                <p>אישיים חשובים, קטגוריות נושאים וקישורים לאתרים מרכזיים בנושא. </p>
+                <p> תופעות, חייזרים, מעגלי תבואה, היסטוריה וסיפורים מהתנ"ך, אישיים חשובים, קטגוריות נושאים וקישורים
+                    לאתרים מרכזיים בנושא. </p>
                 <p>ניתן לחפש ולדווח על אירועים, להתעדכן ולהעלות מודעות לנושא</p>
             </div>
-            <div id="art02">
-                <p>הרשמה לתפוצה</p>
-                <form>
-                    <label for="email"> כתובת דואר אלקטרוני</label>
-                    <input type="email" id="email" />
-                    <button type="submit">הרשמה</button>
-                </form>
-            </div>
+
         </div>
     </section>
     <section class="dot">
@@ -60,6 +59,67 @@
             <div class="three-body__dot"></div>
         </div>
     </section>
+    <section>
+        <div id="images">
+            <div id="image">
+                <h3>תרבויות עתיקות</h3>
+                <img src="../images/siteimages/Mesopotamian_cylinder_seal_impression.jpg"
+                    style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>היסטוריה</h3>
+                <img src="../images/siteimages/Antropomorfi_detti_astronauti.jpg" style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>מקומות בעולם</h3>
+                <img src="../images/siteimages/cfe2d0e64fd3a2afb3923b06326e6c51.jpg"
+                    style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>עצמים מוזרים</h3>
+                <img src="../images/siteimages/NAMA_Machine_d'Anticythère_1.jpg" style="width: 220px; height:150px;" />
+            </div>
+        </div>
+        <div id="images">
+            <div id="image">
+                <h3>מעגלי תבואה</h3>
+                <img src="../images/siteimages/crop.jpeg" style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>לא מובן</h3>
+                <img src="../images/siteimages/naskalines.jpg" style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>אומנות עתיקה</h3>
+                <img src="../images/siteimages/Wandjina_rock_art.jpg" style="width: 220px; height:150px;" />
+            </div>
+            <div id="image">
+                <h3>מבנים מגליתים</h3>
+                <img src="../images/siteimages/pyramid.jpg" style="width: 220px; height:150px;" />
+            </div>
+        </div>
+    </section>
+   
+    <section>
+        <div id="down">
+
+            <div id="art02">
+                <p>הרשמה לתפוצה</p>
+                <!-- <form> -->
+                <label for="email"> כתובת דואר אלקטרוני</label>
+                <input type="email" id="email" />
+                <button onclick="func001()">הרשמה</button>
+                <!-- </form> -->
+
+            </div>
+            <div class="art03">
+                <i class="fa-regular fa-heart fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 340deg;"></i>
+            </div>
+            <div class="art04">
+                <i class="fa-regular fa-heart fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 30deg;"></i>
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
     <div id="rights">
@@ -67,10 +127,23 @@
         <p> CopyRight <span id="year"></span> @ BIZARRE.Israel, All rights reserved</p>
     </div>
 </footer>
+<script type="text/javascript" src="../js/one.js"></script>
 <script>
     const d = new Date();
     let year = d.getFullYear();
     document.getElementById("year").innerHTML = year;
+</script>
+<script>
+    const time = new Date().getHours();
+    let greeting;
+    if (time < 10) {
+        greeting = "בוקר טוב";
+    } else if (time < 18) {
+        greeting = "המשך יום נעים";
+    } else {
+        greeting = "ערב טוב";
+    }
+    document.getElementById("greet").innerHTML = greeting;
 </script>
 
 <body>
