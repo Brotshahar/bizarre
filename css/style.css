@@ -11,13 +11,14 @@ body {
 header {
     text-align: center;
     width: 100%;
-    height: 7vh;
     background-color:rgba(0, 0, 0, 0.473);
     border-bottom: 1px solid white;
     font-size: 20px;
 }
 
-
+header #topnav nav {
+    margin-bottom: 10px;
+}
 header #topnav nav ul {
     list-style: none;
     width: 80%;
@@ -43,6 +44,7 @@ header #topnav nav ul li a {
 
 header #topnav nav ul li i {
     margin-right: 8px;
+    font-size: 16px;
  
 }
 main #greet {
