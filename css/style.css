@@ -164,6 +164,19 @@ main .art04 {
     display: none;
     font-size: 30px;
 }
+main #logos {
+   margin-top: 50px;
+    background-color:rgba(0, 0, 0, 0.473);
+    display: flex;
+}
+main #logos #logolinks {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    align-items: center;
+}
 footer {
     display: flex;
     color: white;
