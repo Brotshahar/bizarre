@@ -58,16 +58,13 @@ main #images {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-    color: white;
+    color: rgb(219, 219, 219);
     font-size: 20px;
+    text-align: center;
 }
 main #images #image {
-    padding: 3px;
-    box-shadow: 3px 3px 5px lightgray;
-}
-main #images img{
-    opacity: 0.8;
-    
+    border-radius: 5px;
+    box-shadow: 1px 1px rgb(0, 0, 0);
 }
 main #top {
     width: 55%;
@@ -88,6 +85,24 @@ main #art01 {
 main #art01 p {
     margin: 0px;
 }
+
+main #up{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px auto;
+
+   
+}
+main #up #img002 img{
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 180px;
+    padding: 5px;
+}
 main #down{
     width: 70%;
     display: flex;
@@ -96,17 +111,19 @@ main #down{
     margin: 0px auto;
     margin-top: 50px;
     font-size: 22px;
-    position: relative;
    
+   
+}
+main #down #form001{
+    position: relative;
 }
 main #art02 {
     background-color:rgba(221, 223, 225,0.3);
     width: 300px;
     height: 220px;
     color: white;
-    border-radius: 8px;
-    border: 1px solid white;
-    box-shadow: 3px 3px 5px lightgray;
+    border-radius: 5px;
+    border: 1px solid rgb(113, 113, 113);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -136,31 +153,19 @@ main #art02 input{
 main #art02  p{
     margin: 10px;
 }
-main #adown {
-    width: 70%;
-    margin: 0px auto;
-    text-align: left;
-    margin: 50px;
-}
-main #adown #img002 img{
-    width: 300px;
-    height: 300px;
-    opacity: 0.9;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 180px;
-    padding: 5px;
-}
+
+
 main .art03 {
     position: absolute;
     top: 70px;
-    left: 550px;
+    left: 50px;
     display: none;
     font-size: 30px;
 }
 main .art04 {
     position: absolute;
     top: 120px;
-    left: 550px;
+    left: 50px;
     display: none;
     font-size: 30px;
 }
