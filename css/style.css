@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&family=Playfair+Display&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
-
 body {
     margin: 0px;
     background-image: url('../images/milkyway.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: fantasy;
 }
 
 header {
@@ -50,20 +47,6 @@ main #greet {
     width: 55%;
     margin: 0px auto;
     margin-top: 20px;
-}
-main #images {
-    width: 60%;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    color: rgb(219, 219, 219);
-    font-size: 20px;
-    text-align: center;
-}
-main #images #image {
-    border-radius: 5px;
-    box-shadow: 1px 1px rgb(0, 0, 0);
 }
 main #top {
     width: 55%;
@@ -125,7 +108,7 @@ main #art02 {
     height: 220px;
     color: white;
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -140,7 +123,7 @@ main #art02 button{
     border: 1px solid white;
     color: white;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 20px;
 }
 main #art02 button:hover{
     background-color: black;
@@ -171,6 +154,31 @@ main .art04 {
     display: none;
     font-size: 30px;
 }
+main #subjects {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+main #subjecthead {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+main #subjects button{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 25px;
+    min-width: 200px;
+}
+main #subjects button:hover{
+    background-color: black;
+}
 main #logos {
    margin-top: 50px;
     background-color:rgba(0, 0, 0, 0.473);
@@ -191,8 +199,7 @@ main #links{
 }
 main #links a{
     text-decoration: none;
-    font-size: 18PX;
-    font-weight:normal;
+    font-size: 20PX;
     margin: 15px;
     color: white;
 }
@@ -207,7 +214,6 @@ main #persons{
 main #persons a{
     text-decoration: none;
     font-size: 22PX;
-    font-weight: 700;
     margin:10px;
     color: white;
 }
