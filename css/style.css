@@ -185,25 +185,34 @@ main #logos #logolinks {
     align-items: center;
 }
 main #links{
-    width: 55%;
+    width: 70%;
     margin: 0px auto;
     margin-top: 20px;
 }
 main #links a{
-    font-size: 20PX;
+    text-decoration: none;
+    font-size: 18PX;
+    font-weight:normal;
     margin: 15px;
     color: white;
 }
+main #links a:hover{
+    text-decoration: underline;
+}
 main #persons{
-    width: 55%;
+    width: 70%;
     margin: 0px auto;
     margin-top: 20px;
 }
 main #persons a{
-    font-size: 24PX;
+    text-decoration: none;
+    font-size: 22PX;
     font-weight: 700;
     margin:10px;
     color: white;
+}
+main #persons a:hover{
+    text-decoration: underline;
 }
 footer {
     display: flex;
