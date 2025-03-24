@@ -160,24 +160,17 @@ main #subjects {
     justify-content: center;
     gap: 100px;
     align-items: center;
+    flex-wrap: wrap;
+}
+main #subjects a{
+    color: black;
 }
 main #subjecthead {
     margin-top: 30px;
     text-align: center;
     color: white;
 }
-main #subjects button{
-   
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    border-radius: 8px;
-    font-size: 18px;
-    width: 300px;
-}
-main #subjects button:hover{
-    background-color: black;
-}
+
 main #logos {
    margin-top: 50px;
     background-color:rgba(0, 0, 0, 0.473);
