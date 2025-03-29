@@ -102,6 +102,7 @@ main #down{
 }
 main #down #form001{
     position: relative;
+    background-color: rgba(0, 0, 0, 0.218)
 }
 main #art02 {
     width: 300px;
@@ -115,6 +116,7 @@ main #art02 {
     justify-content: center;
     align-items: center;
     margin-top: 30PX;  
+    margin-bottom: 30PX;  
 }
 main #art02 button{
     width: 120px;
@@ -161,9 +163,19 @@ main #subjects {
     gap: 100px;
     align-items: center;
     flex-wrap: wrap;
+    color: white;
+    height: 220px;
+    
+}
+main #subjects #subject{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.218)
+    
 }
 main #subjects a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 main #subjecthead {
     margin-top: 30px;
