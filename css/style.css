@@ -112,7 +112,7 @@ main #art02 {
     border: 1px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
     margin-top: 30PX;  
@@ -196,6 +196,43 @@ main #logos #logolinks {
     padding-bottom: 50px;
     align-items: center;
 }
+main #contact{
+    width: 70%;
+    margin:  30px auto;  
+    font-size: 18px;
+ }
+main #contact #b{
+    display: flex;
+    justify-content: center;
+ }
+main #contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px auto;
+ }
+ main #contact1 label{
+    margin: 0 30px;
+ }
+  main #b button{
+    width: 120px;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+main #contact1 input {
+    border: 1px solid #6D2323;
+    border-radius: 5px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+ main #b {
+    margin: 20px auto;
+ }
 main #links{
     width: 70%;
     margin: 0px auto;
