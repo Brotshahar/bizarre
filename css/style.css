@@ -9,11 +9,11 @@ header {
     text-align: center;
     background-color:rgba(0, 0, 0, 0.473);
     border-bottom: 1px solid white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header #topnav nav {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 header #topnav nav ul {
     list-style: none;
@@ -40,23 +40,19 @@ header #topnav nav ul li a {
 
 header #topnav nav ul li i {
     margin-right: 8px;
-    font-size: 16px;
- 
 }
 main #greet {
-    width: 55%;
-    margin: 0px auto;
-    margin-top: 20px;
+    width: 70%;
+    margin: 20px auto;
 }
 main #top {
-    width: 55%;
+    width: 70%;
     margin: 50px auto;
     justify-content: right;
     font-size: 16px;
     font-family: "Playfair Display", serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 22px;
    color: white;
 }
 main #art01 {
@@ -66,6 +62,7 @@ main #art01 {
 }
 main #art01 p {
     margin: 0px;
+    font-size: 22px;
 }
 
 main #up{
@@ -102,7 +99,6 @@ main #down{
 }
 main #down #form001{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.218)
 }
 main #art02 {
     width: 300px;
@@ -110,6 +106,7 @@ main #art02 {
     color: white;
     border-radius: 5px;
     border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.218);
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -132,7 +129,7 @@ main #art02 button:hover{
 }
 main #art02 input{
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     padding: 3px;
     width: 200px;
     border: none;
@@ -214,15 +211,7 @@ main #contact1{
  main #contact1 label{
     margin: 0 30px;
  }
-  main #b button{
-    width: 120px;
-    height: 28px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    border-radius: 8px;
-    font-size: 16px;
-}
+  
 main #contact1 input {
     border: 1px solid #6D2323;
     border-radius: 5px;
@@ -233,6 +222,18 @@ main #contact1 input {
  main #b {
     margin: 20px auto;
  }
+ main #b button{
+    width: 120px;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+}
+main #b button:hover{
+    background-color: black;
+}
 main #links{
     width: 70%;
     margin: 0px auto;
@@ -240,7 +241,7 @@ main #links{
 }
 main #links a{
     text-decoration: none;
-    font-size: 16PX;
+    font-size: 18PX;
     margin: 15px;
     color: white;
 }
@@ -272,9 +273,21 @@ footer {
 
 footer #rights {
     text-align: center;
+    padding: 30px;
 }
 footer #rights p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 1px 1px 3px black;
+    margin: 20px;
+}
+main #h {
+    width: 70%;
+    margin: 30px auto;
+    color: white;
+}
+main #termcard {
+    width: 70%;
+    margin: 30px auto;
+    color: white;
 }
