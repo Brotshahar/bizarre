@@ -28,7 +28,7 @@ header #topnav nav ul li {
     margin-top: 15px;
 }
 header #topnav nav ul li a:hover {
-    color: lightgray;
+    color: rgb(208, 233, 255);
     
 }
 
@@ -184,19 +184,6 @@ main #subjecthead {
     color: white;
 }
 
-main #logos {
-   margin-top: 50px;
-    background-color:rgba(0, 0, 0, 0.473);
-    display: flex;
-}
-main #logos #logolinks {
-    width: 80%;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    align-items: center;
-}
 main #contact{
     width: 70%;
     margin:  30px auto;  
