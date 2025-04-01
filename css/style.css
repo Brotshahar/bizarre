@@ -162,6 +162,7 @@ main #subjects {
     flex-wrap: wrap;
     color: white;
     height: 220px;
+    font-size: 18px;
     
 }
 main #subjects #subject{
@@ -173,6 +174,9 @@ main #subjects #subject{
 }
 main #subjects a{
     color: rgb(255, 255, 255);
+}
+main #subjects a:hover{
+    color: rgb(208, 233, 255);
 }
 main #subjecthead {
     margin-top: 30px;
@@ -287,7 +291,40 @@ main #h {
     color: white;
 }
 main #termcard {
-    width: 70%;
-    margin: 30px auto;
+    width: 40%;
+    font-size: 22px;
+    margin: 0px auto;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+main #termcard button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.473);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+main #termcard button:hover{
+    border: 1px solid rgb(208, 233, 255);
+    color: rgb(208, 233, 255);
+}
+main #termcard a{
+    color: white;
+}
+main #termcard a:hover{
+    color: rgb(208, 233, 255);
+}
+main #termcard #info{
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
