@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" defer src="./js/one.js"></script>
     <script src="https://kit.fontawesome.com/9116118311.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="./images/favcon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,7 +57,7 @@
     </section>
     <section>
         <div id="termcard">
-            <button id="button1">פנספרמיה<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(1)">פנספרמיה<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>פנספרמיה (באנגלית: Panspermia) היא תאוריה הגורסת כי מוצא החיים אינו מכדור הארץ, אלא מן החלל.
                     התאוריה עוסקת בהוכחות מדעיות לכך שמעבר חיים מכוכב לכת אחד למשנהו, או ממערכת כוכבים אחת למשנתה, הוא
@@ -64,7 +65,7 @@
                 <a title="bizarre - links" target="_blank"
                     href="https://he.wikipedia.org/wiki/%D7%A4%D7%A0%D7%A1%D7%A4%D7%A8%D7%9E%D7%99%D7%94">מידע נוסף</a>
             </div>
-            <button id="button1">ראיה מרחוק<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(2)">ראיה מרחוק<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>תפיסה על-חושית (בראשי תיבות: תע"ח, נקראת גם חוש שישי או מראה שני) היא תופעה על-טבעית לא מוכחת בה
                 טוענים שהם מקבלים מידע או משפיעים על הסביבה מבלי להשתמש בחמשת החושים.
@@ -74,7 +75,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%99%D7%A1%D7%94_%D7%A2%D7%9C-%D7%97%D7%95%D7%A9%D7%99%D7%AA">מידע
                     נוסף</a>
             </div>
-            <button id="button1">הספר הכחול<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(3)">הספר הכחול<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>פרויקט "ספר כחול" (בשפת מקור: Project Blue Book) היה אחד מסדרה של מחקרים שיטתיים אותם ערך חיל האוויר
                     של ארצות הברית בנושא עצמים בלתי מזוהים (UFO's). הפרויקט החל ב-1952, הייתה זו הפעם השנייה בה חיל
@@ -84,7 +85,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98_%D7%94%D7%A1%D7%A4%D7%A8_%D7%94%D7%9B%D7%97%D7%95%D7%9C">מידע
                     נוסף</a>
             </div>
-            <button id="button1">תאוריית האסטרונאוט העתיק<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(4)">תאוריית האסטרונאוט העתיק<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>חייזרים קדומים או אסטרונאוטים קדומים, הידועה גם כאסכולת האסטרונאוט הקדמון, היא תאוריה פסאודו-מדעית
                     שקובעת כי יצורים אינטליגנטיים מהחלל החיצון (חוצנים) ביקרו בכדור הארץ בעבר, יצרו קשר עם בני אדם,
@@ -94,7 +95,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%99%D7%96%D7%A8%D7%99%D7%9D_%D7%A7%D7%93%D7%95%D7%9E%D7%99%D7%9D">מידע
                     נוסף</a>
             </div>
-            <button id="button1">קוסמולוגיה<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(5)">קוסמולוגיה<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>פירוש משמעותי יותר למילה "קוסמולוגיה" מבוסס על העובדה שהיא נגזרת מהמילה היוונית – kosmeo, שמשמעותה
                     "סדר" או "ארגון". היוונים האמינו שאפשר להבין את העולם, וכי הוא ראוי לארגון ולסדר אנליטיים. הם הבחינו
@@ -103,7 +104,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94">מידע
                     נוסף</a>
             </div>
-            <button id="button1">אות הוואו<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(6)">אות הוואו<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>אות ה-"!Wow" היה אות רדיו חזק מאוד שזוהה ב-15 באוגוסט 1977 על ידי הרדיו-טלסקופ "האוזן הגדולה" של
                     אוניברסיטת המדינה של אוהיו, ונשא את סימני ההיכר הצפויים של תשדורת רדיו, אך האות לא הגיע מכדור הארץ
@@ -111,7 +112,7 @@
                 <a title="bizarre - links" target="_blank"
                     href="https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%AA_%D7%94-!Wow">מידע נוסף</a>
             </div>
-            <button id="button1">אזור 51<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(7)">אזור 51<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>אזור 51 (באנגלית: Area 51) הוא שטח צבאי סגור הנמצא בחלקה הדרומי של מדינת נבדה שבארצות הברית. הבסיס
                     משמש לפיתוח וניסוי כלי טיס צבאיים סודיים. שמו של אזור 51 נקשר גם לתאוריות קשר רבות העוסקות בחייזרים,
@@ -119,7 +120,7 @@
                 <a title="bizarre - links" target="_blank"
                     href="https://he.wikipedia.org/wiki/%D7%90%D7%96%D7%95%D7%A8_51">מידע נוסף</a>
             </div>
-            <button id="button1">גשר איינשטיין רוזן<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(8)">גשר איינשטיין רוזן<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>העיקרון העומד מאחורי חורי תולעת הוא שלפי תורת היחסות הכללית מרחב הזמן מתעקם בהשפעת כבידה. לכן,
                     בהמצאות כבידה חזקה מספיק, נקודות רחוקות ביקום יכולות להיות קרובות זו לזו עד כי הן נמצאות "במרחק
@@ -127,7 +128,7 @@
                 <a title="bizarre - links" target="_blank"
                     href="https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A8_%D7%AA%D7%95%D7%9C%D7%A2%D7%AA">מידע נוסף</a>
             </div>
-            <button id="button1">הנדסה הפוכה<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(9)">הנדסה הפוכה<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>הִנדוּס לאחור (באנגלית: reverse engineering) הוא תהליך של גילוי עקרונות טכנולוגיים והנדסיים של
                     מוצר דרך ניתוח המבנה שלו ואופן פעולתו. לרוב, תהליך זה כולל פירוק המוצר למרכיביו, וניתוח פרטני של דרך
@@ -137,7 +138,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%94%D7%A0%D7%93%D7%A1%D7%94_%D7%94%D7%A4%D7%95%D7%9B%D7%94">מידע
                     נוסף</a>
             </div>
-            <button id="button1">תסמונת סוואנט<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(10)">תסמונת סוואנט<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>תסמונת סוואנט (באנגלית: Savant syndrome) היא מצב רפואי נדיר, שבו אדם בעל שונות נוירולוגית מבטא יכולות
                     מנטליות יוצאות מגדר הרגיל בקרב בני אנוש. תסמונת סוואנט יכולה להיות מולדת, אך גם נרכשת כאשר השוני
@@ -149,7 +150,7 @@
                     href="https://he.wikipedia.org/wiki/%D7%AA%D7%A1%D7%9E%D7%95%D7%A0%D7%AA_%D7%A1%D7%95%D7%95%D7%90%D7%A0%D7%98">מידע
                     נוסף</a>
             </div>
-            <button id="button1">מגילות ים המלח<i class="fa-solid fa-plus"></i></button>
+            <button id="button1" onclick="buttons(11)">מגילות ים המלח<i class="fa-solid fa-plus"></i></button>
             <div id="info">
                 <p>מגילות מדבר יהודה, המכונות גם מגילות ים המלח, המגילות הגנוזות ומגילות קומראן, הן מגילות שהתגלו במערות
                     קומראן, מורבעת, נחל חבר (מערת האימה ומערת האיגרות), נחל צאלים ועל המצדה שבמדבר יהודה ובאתרים נוספים
@@ -257,7 +258,7 @@
         <p> CopyRight <span id="year"></span> @ BIZARRE.Israel, All rights reserved</p>
     </div>
 </footer>
-<script type="text/javascript" src="./js/one.js"></script>
+
 <script>
     const d = new Date();
     let year = d.getFullYear();

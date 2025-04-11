@@ -295,6 +295,8 @@ main #termcard button{
     border: 1px solid white;
     border-radius: 5px 5px 0px 0px;
     padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 main #termcard button:hover{
     border: 1px solid rgb(208, 233, 255);
@@ -314,4 +316,8 @@ main #termcard #info{
     padding: 10px;
     margin-bottom: 20px;
     font-size: 18px;
+    display: none;
+    overflow: hidden;
 }
+
+  
