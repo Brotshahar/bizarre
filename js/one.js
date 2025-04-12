@@ -4,12 +4,14 @@ const fname = document.querySelector("#fullname");
 const mobile = document.querySelector("#phone");
 const mail = document.querySelector("#email");
 const button = document.querySelector("#button1");
-const info = document.querySelector("#info");
+
 let i = 0;         
 
 
 function buttons(index) {
- console.log([index]);
+ console.log(index);
+ const info = document.getElementById(index);
+ console.log(info.className);
      
 }
 function func002() {

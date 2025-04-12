@@ -308,7 +308,7 @@ main #termcard a{
 main #termcard a:hover{
     color: rgb(208, 233, 255);
 }
-main #termcard #info{
+main #termcard .info{
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -317,7 +317,6 @@ main #termcard #info{
     margin-bottom: 20px;
     font-size: 18px;
     display: none;
-    overflow: hidden;
 }
 
   
