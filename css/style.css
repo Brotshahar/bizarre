@@ -318,5 +318,14 @@ main #termcard .info{
     font-size: 18px;
     display: none;
 }
+.infodisplay{
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
 
   

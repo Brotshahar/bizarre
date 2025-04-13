@@ -3,7 +3,7 @@ console.log('Thank You');
 const fname = document.querySelector("#fullname");
 const mobile = document.querySelector("#phone");
 const mail = document.querySelector("#email");
-const button = document.querySelector("#button1");
+
 
 let i = 0;         
 
@@ -11,7 +11,17 @@ let i = 0;
 function buttons(index) {
  console.log(index);
  const info = document.getElementById(index);
+ const pelement = (info.previousElementSibling);
  console.log(info.className);
+ if (info.className === 'info'){
+    info.className = info.className.replace("info", "infodisplay");
+    pelement.style.color =  ' rgb(208, 233, 255)';
+
+ }
+ else {
+    info.className = info.className.replace("infodisplay","info");
+    pelement.style.color =  'white';
+ }
      
 }
 function func002() {
