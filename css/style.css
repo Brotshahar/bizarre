@@ -11,6 +11,9 @@ header {
     background-color:rgba(0, 0, 0, 0.473);
     border-bottom: 1px solid rgb(208, 233, 255);
     font-size: 18px;
+    background-image: url('../images/bgheader.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 header #topnav nav {
