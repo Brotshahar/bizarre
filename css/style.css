@@ -339,5 +339,13 @@ main #termcard .info{
     margin-bottom: 20px;
     font-size: 18px;
 }
+main #gallery {
+    width: 80%;
+    margin: 0px auto;
+}
+main #gallery #imagecard{
+    display: flex;
+    justify-content: center;
+}
 
   
