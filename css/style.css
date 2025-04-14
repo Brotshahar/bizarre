@@ -307,6 +307,7 @@ main #termcard button{
     border-radius: 5px 5px 0px 0px;
     padding: 10px;
     cursor: pointer;
+    overflow: hidden;
     transition: 0.4s;
 }
 main #termcard button:hover{
