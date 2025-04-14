@@ -247,6 +247,7 @@ main #links a{
 }
 main #links a:hover{
     text-decoration: underline;
+    color: rgb(208, 233, 255);
 }
 main #persons{
     width: 70%;
@@ -261,10 +262,11 @@ main #persons a{
 }
 main #persons a:hover{
     text-decoration: underline;
+    color: rgb(208, 233, 255);
 }
 footer {
     display: flex;
-    color: white;
+    color: rgb(208, 233, 255);
     width: 80%;
     margin: 0px auto;
     margin-top: 50px;
