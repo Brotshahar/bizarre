@@ -304,7 +304,6 @@ main #termcard button{
     background-color:rgba(0, 0, 0, 0.473);
     color: white;
     border: 1px solid white;
-    border-radius: 5px 5px 0px 0px;
     padding: 10px;
     cursor: pointer;
     overflow: hidden;
@@ -324,7 +323,6 @@ main #termcard .info{
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    border-radius: 0px 0px 5px 5px;
     padding: 10px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -334,7 +332,6 @@ main #termcard .info{
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    border-radius: 0px 0px 5px 5px;
     padding: 10px;
     margin-bottom: 20px;
     font-size: 18px;
