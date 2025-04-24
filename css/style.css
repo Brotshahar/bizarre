@@ -103,6 +103,9 @@ main #down{
     margin: 0px auto;
     margin-top: 50px;
     font-size: 18px;
+    background-image: url('../images/bgdown.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
    
    
 }
