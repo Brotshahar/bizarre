@@ -273,6 +273,9 @@ footer {
     margin: 0px auto;
     margin-top: 50px;
     justify-content: center;
+    background-image: url('../images/bgfooter.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 footer #rights {
