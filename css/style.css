@@ -95,6 +95,16 @@ main #up #img002 img{
 main #up #img002 img:hover{
     transform: rotate(10deg);
 }
+main #img003 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main #img003 img{
+    width: 700px;
+    height: 400px;
+}
 main #down{
     width: 70%;
     display: flex;
@@ -329,7 +339,7 @@ main #termcard .info{
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 10px;
-    margin-bottom: 20px;
+   
     font-size: 18px;
     display: none;
 }
@@ -338,7 +348,7 @@ main #termcard .info{
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 10px;
-    margin-bottom: 20px;
+   
     font-size: 18px;
 }
 main #gallery {
