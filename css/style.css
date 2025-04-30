@@ -348,6 +348,13 @@ main #gallery {
 main #gallery #imagecard{
     display: flex;
     justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+main #gallery #imagecard img{
+    border-radius: 5px;
+    border: 1px solid rgb(208, 233, 255);
+    box-shadow: 1px 1px 4px white;
 }
 
   
