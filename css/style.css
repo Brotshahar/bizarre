@@ -101,10 +101,6 @@ main #img003 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-main #img003 img{
-    width: 700px;
-    height: 400px;
-}
 main #down{
     width: 70%;
     display: flex;
