@@ -109,7 +109,7 @@
         <div id="down">
             <div id="form001">
                 <h4 style="color: white; text-align: center;">הרשמה לתפוצה</h4>
-                <div id="art02">
+                <div id="art02" class="card mb-5  w-35 mx-auto text-bg-dark  p-5">
                     
                     <!-- <form> -->
                     <label for="lemail"> כתובת דואר אלקטרוני</label>
@@ -132,25 +132,26 @@
             <img src="./images/mars.jpg" alt="Mars" title="מאדים" width="500px" height="500px" />
         </div>
     </section>
-    <section id="contact" style="color: white;">
-        <h4>רוצים לסייע</h4>
-        <div id="contact1">
-            <!-- <form> -->
-                <label for="fullname"> שם מלא*</label>
-                <input id="fullname" type="text" required />
+   <section id="contact" style="color: white;">
+        <br>
+        <h4 style="color: white; text-align: center; margin-bottom: 30px;">רוצים לסייע</h4>
+        <div id="contact1" class="card mb-5  w-35 mx-auto text-bg-dark border-light p-5">
+            <form>
+            <label for="fullname"> שם מלא*</label>
+            <input id="fullname" type="text" required />
 
-                <label for="phone"> טלפון נייד*</label>
-                <input id="phone" type="text" required />
+            <label for="phone"> טלפון נייד*</label>
+            <input id="phone" type="text" required />
 
-                <label for="email"> דואר אלקטרוני*</label>
-                <input id="email" type="email" required />
-                
-                
-            <!-- </form> -->
+            <label for="email"> דואר אלקטרוני*</label>
+            <input id="email" type="email" required />
+
+            <div id="b">
+                <button type="button" id="myBtn" onclick="func002()"> שלח </button>
+            </div>
+            </form>
         </div>
-        <div id="b">
-            <button type="button" id="myBtn" onclick="func002()"> שלח </button>
-        </div>
+
     </section>
     
     <section id="links" style="color: white;">
