@@ -171,15 +171,15 @@
     </section>
    
 
-    <section>
+   <section>
         <div id="down">
             <div id="form001">
                 <h4 style="color: white; text-align: center;">הרשמה לתפוצה</h4>
-                <div id="art02">
+                <div id="art02" class="card mb-5 mx-auto text-bg-dark ">
 
                     <!-- <form> -->
-                    <label for="email"> כתובת דואר אלקטרוני</label>
-                    <input type="email" id="email" />
+                    <label for="lemail"> כתובת דואר אלקטרוני</label>
+                    <input type="email" id="lemail" />
                     <button onclick="func001()">הרשמה</button>
                     <!-- </form> -->
 
@@ -198,27 +198,31 @@
             <img src="./images/earth_th.jpg" alt="earth" title="כדור הארץ" width="1000px" height="500px" />
         </div>
     </section>
-    <section id="contact" style="color: white;">
-        <h4>רוצים לסייע</h4>
-        <div id="contact1">
-            <!-- <form> -->
-            <label for="fullname"> שם מלא*</label>
-            <input id="fullname" type="text" required />
+     <section id="contact" style="color: white;">
+        <br>
+        <h4 style="color: white; text-align: center; margin-bottom: 30px;">רוצים לסייע</h4>
+        <div id="contact" class="card mb-5  w-35 mx-auto text-bg-dark border-light p-5 d-flex justify-content-center text-center">
+                <form>
+                    <label for="id_name"> שם מלא*</label>
+                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
+                    <span id="nameError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
-            <label for="phone"> טלפון נייד*</label>
-            <input id="phone" type="text" required />
+                    <label for="id_phone"> טלפון נייד*</label>
+                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
+                    <span id="phoneError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
-            <label for="email"> דואר אלקטרוני*</label>
-            <input id="email" type="email" required />
+                    <label for="email">דואר אלקטרוני*</label>
+                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
+                    <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
 
+                    <div id="b">
+                        <button type="submit" id="myBtn"> שלח </button>
+                    </div><br><br>
+                    <p id="result">פרטים ליצירת קשר</p>
+                </form>
+            </div>
 
-            <!-- </form> -->
-        </div>
-        <div id="b">
-            <button type="button" id="myBtn" onclick="func002()"> שלח </button>
-        </div>
     </section>
-
     <section id="links" style="color: white;">
         <h4>קישורים חיצוניים</h4>
         <a href="https://www.nasa.gov/" target="_blank">NASA</a>

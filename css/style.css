@@ -207,26 +207,16 @@ main #contact{
     margin:  30px auto;  
     font-size: 18px;
  }
+main #contact input{
+  margin-right: 15px;  
+ }
 main #contact #b{
     display: flex;
     justify-content: center;
  }
-main #contact1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px auto;
+main #contact i{
+    margin-right: 15px;
  }
- main #contact1 label{
-    margin: 0 30px;
- }
-  
-main #contact1 input {
-    border: 1px solid rgb(208, 233, 255);
-    border-radius: 5px;
-    height: 30px;
-    margin: 20px auto;
-}
 
  main #b {
     margin: 20px auto;
