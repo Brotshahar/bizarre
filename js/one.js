@@ -77,16 +77,17 @@ function buttons(index) {
  }
      
 }
-function func002() {
+const art02 =document.querySelector("#art02");
+const art03 =document.querySelector("#art03");
+const art04 =document.querySelector("#art04");
+function func001() {
     console.log("workeing");
-    console.log(fname.value);
-    console.log(mobile.value);
-    console.log(mail.value);
-    fname.value = ("");
-    mobile.value = ("");
-    mail.value = ("");
-    // contact.style.display = ("none");
-    alert("ההודעה נשלחה, המון תודה");
+    const lemail = document.querySelector("#lemail");
+    lemail.value = ("");
+    
+    
+
+    alert("המון תודה");
 }
 
 
