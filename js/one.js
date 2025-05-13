@@ -77,17 +77,18 @@ function buttons(index) {
  }
      
 }
-const art02 =document.querySelector("#art02");
-const art03 =document.querySelector("#art03");
-const art04 =document.querySelector("#art04");
+
 function func001() {
-    console.log("workeing");
-    const lemail = document.querySelector("#lemail");
-    lemail.value = ("");
-    
-    
+    const x = document.querySelector("input");
+    const art02 = document.getElementById("art02");
+    const art03 = document.querySelector(".art03");
+    const art04 = document.querySelector(".art04");
+    console.log(x.value);
+    art02.innerText = "תודה";
+    art02.style.fontSize = "25px";
+    art02.style.fontWeight = "bold";
+    art03.style.display = "block";
+    art04.style.display = "block";
 
-    alert("המון תודה");
 }
-
 
