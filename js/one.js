@@ -14,81 +14,90 @@ const emailReg = /^(?:[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^
 const phoneReg = /^(?:(?:(\+?972|\(\+?972\)|\+?\(972\))(?:\s|\.|-)?([1-9]\d?))|(0[23489]{1})|(0[57]{1}[0-9]))(?:\s|\.|-)?([^0\D]{1}\d{2}(?:\s|\.|-)?\d{4})$/
 const nameReg = /^[a-zA-Z]{2,}$/; // At least 2 characters
 
-form.addEventListener("submit",(e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    
-        result.innerHTML = `הטופס נשלח בהצלחה <i class="fa-solid fa-check" style="color: green ";></i>`;
-        form.reset();
-        nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-        emailError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-        phoneError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-        const intervalID = setInterval(flush, 3500);
-  
+
+    result.innerHTML = `הטופס נשלח בהצלחה <i class="fa-solid fa-check" style="color: green ";></i>`;
+    form.reset();
+    nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+    emailError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+    phoneError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+    const intervalID = setInterval(flush, 3500);
+
 })
-    function flush(){
-        result.innerHTML = "פרטים ליצירת קשר";
+function flush() {
+    result.innerHTML = "פרטים ליצירת קשר";
+}
+
+// alert("ההודעה נשלחה, המון תודה");
+function validateInputs(target) {
+    ;
+    if (target === "name") {
+        if (nameInput.value.length < 2 && !nameReg.test(nameInput.value)) {
+            nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+            return;
+        }
+        else return nameError.innerHTML = `<i class="fa-solid fa-check" style="color: green ";></i>`
     }
-   
-    // alert("ההודעה נשלחה, המון תודה");
-    function validateInputs (target){;
-        if(target === "name"){
-            if(nameInput.value.length < 2 && !nameReg.test(nameInput.value)){
-                nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-                return;
-            }
-            else return nameError.innerHTML =  `<i class="fa-solid fa-check" style="color: green ";></i>` 
+    if (target === "email") {
+        if (!emailReg.test(emailInput.value)) {
+            emailError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+            return;
         }
-        if(target === "email"){
-            if(!emailReg.test(emailInput.value)){
-                emailError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-                return;
-            }
-            else return emailError.innerHTML =  `<i class="fa-solid fa-check" style="color: green ";></i>` 
+        else return emailError.innerHTML = `<i class="fa-solid fa-check" style="color: green ";></i>`
+    }
+    if (target === "phone") {
+        if (!phoneReg.test(phoneInput.value)) {
+            phoneError.innerHTML = `<i class="fa-solid fa-check"></i>`;
+            return;
         }
-        if(target === "phone"){
-            if(!phoneReg.test(phoneInput.value)){
-                phoneError.innerHTML = `<i class="fa-solid fa-check"></i>`;
-                return;
-            }
-            else return phoneError.innerHTML = `<i class="fa-solid fa-check" style="color: green ";></i>` 
-        }
-    
+        else return phoneError.innerHTML = `<i class="fa-solid fa-check" style="color: green ";></i>`
     }
 
+}
 
-    
-let i = 0;         
+
+
+let i = 0;
 
 
 function buttons(index) {
- console.log(index);
- const info = document.getElementById(index);
- const pelement = (info.previousElementSibling);
- console.log(info.className);
- if (info.className === 'info'){
-    info.className = info.className.replace("info", "infodisplay");
-    pelement.style.color =  ' rgb(208, 233, 255)';
+    console.log(index);
+    const info = document.getElementById(index);
+    const pelement = (info.previousElementSibling);
+    console.log(info.className);
+    if (info.className === 'info') {
+        info.className = info.className.replace("info", "infodisplay");
+        pelement.style.color = ' rgb(208, 233, 255)';
 
- }
- else {
-    info.className = info.className.replace("infodisplay","info");
-    pelement.style.color =  'white';
- }
-     
+    }
+    else {
+        info.className = info.className.replace("infodisplay", "info");
+        pelement.style.color = 'white';
+    }
+
 }
 
 function func001() {
-    const x = document.querySelector("input");
+    const mailvalue = document.querySelector("input");
     const art02 = document.getElementById("art02");
     const art03 = document.querySelector(".art03");
     const art04 = document.querySelector(".art04");
-    console.log(x.value);
-    art02.innerText = "תודה";
-    art02.style.fontSize = "25px";
-    art02.style.fontWeight = "bold";
-    art03.style.display = "block";
-    art04.style.display = "block";
+    const emailinput = (mailvalue.value);
+    console.groupCollapsed(emailinput)
+    if (emailinput.length < 2 && !emailReg.test(emailinput)) {
+        alert("טעות");
+        return;
+    }
+    else {
+        art02.innerText = "תודה";
+        art02.style.fontSize = "25px";
+        art02.style.fontWeight = "bold";
+        art03.style.display = "block";
+        art04.style.display = "block";
+    }
+
 
 }
 
