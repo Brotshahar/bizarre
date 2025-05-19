@@ -86,7 +86,7 @@ function func001() {
     const art04 = document.querySelector(".art04");
     const emailinput = (mailvalue.value);
     console.groupCollapsed(emailinput)
-    if (emailinput.length < 2 && !emailReg.test(emailinput)) {
+    if (!emailReg.test(emailinput)) {
         alert("טעות");
         return;
     }
