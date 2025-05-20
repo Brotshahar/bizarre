@@ -32,9 +32,8 @@ function flush() {
 
 // alert("ההודעה נשלחה, המון תודה");
 function validateInputs(target) {
-    ;
     if (target === "name") {
-        if (nameInput.value.length < 2 && !nameReg.test(nameInput.value)) {
+        if (!nameReg.test(nameInput.value)) {
             nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
             return;
         }
