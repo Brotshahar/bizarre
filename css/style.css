@@ -203,7 +203,7 @@ main #subjecthead {
 }
 
 main #contact{
-    width: 60%;
+    width: 45%;
     margin:  30px auto;  
     font-size: 18px;
  }
@@ -238,6 +238,9 @@ main #links{
     margin: 0px auto;
     margin-top: 20px;
 }
+main #links h4 {
+    margin-bottom: 30px;
+}
 main #links a{
     text-decoration: none;
     font-size: 18PX;
@@ -252,6 +255,9 @@ main #persons{
     width: 70%;
     margin: 0px auto;
     margin-top: 20px;
+}
+main #persons h4 {
+    margin-bottom: 30px;
 }
 main #persons a{
     text-decoration: none;
