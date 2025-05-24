@@ -203,19 +203,24 @@ main #subjecthead {
 }
 
 main #contact{
-    width: 45%;
+    width: 80%;
     margin:  30px auto;  
     font-size: 18px;
  }
 main #contact input{
-  margin-right: 15px;  
+    margin-right: 15px; 
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center; 
  }
 main #contact #b{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
  }
 main #contact i{
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-left: 60px;
  }
 
  main #b {

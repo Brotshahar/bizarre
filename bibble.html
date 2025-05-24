@@ -51,10 +51,10 @@
     <section class="d-flex justify-content-center mt-5">
     <!-- Example single danger button -->
     <div class="btn-group" >
-      <button type="button" class="btn btn-dark dropdown-toggle border-light" data-bs-toggle="dropdown" aria-expanded="false">
+      <button type="button" style="width: 200px;" class="btn btn-dark dropdown-toggle border-light" data-bs-toggle="dropdown" aria-expanded="false">
        קטגוריות
       </button>
-      <ul class="dropdown-menu dropdown-menu-dark" style="color: white; text-align: right;">
+      <ul class="dropdown-menu dropdown-menu-dark" style="color: white; text-align: right; width: 200px;">
         <li><a class="dropdown-item" href="./term.html">מונחים בסיסיים</a></li>
         <li><a class="dropdown-item" href="./objectso.html">עצמים לא מובנים</a></li>
         <li><a class="dropdown-item" href="./places.html">מקומות מוזרים</a></li>
@@ -170,26 +170,27 @@
    <section id="contact" style="color: white;">
         <br>
         <h4 style="color: white; text-align: center; margin-bottom: 30px;">רוצים לסייע</h4>
-        <div id="contact" class="card mb-5  w-35 mx-auto text-bg-dark border-light p-5 d-flex justify-content-center text-center">
-                <form>
-                    <label for="id_name"> שם מלא*</label><br><br>
-                    <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" required />
-                    <span id="nameError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
+        <div id="contact"
+            class="card mb-5 mx-auto text-bg-dark border-light p-5 d-flex justify-content-center text-center">
+            <form>
+                <!-- <label for="id_name"> שם מלא*</label><br><br> -->
+                <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" placeholder="שם מלא" required />
+                <span id="nameError" class="error"><i class="fa-solid fa-check"></i></span>
 
-                    <label for="id_phone"> טלפון נייד*</label><br><br>
-                    <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" required />
-                    <span id="phoneError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
+                <!-- <label for="id_phone"> טלפון נייד*</label><br><br> -->
+                <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" placeholder="טלפון נייד" required />
+                <span id="phoneError" class="error"><i class="fa-solid fa-check"></i></span>
 
-                    <label for="email">דואר אלקטרוני*</label><br><br>
-                    <input onblur="validateInputs('email')" type="email" id="email" name="email" required />
-                    <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
+                <!-- <label for="email">דואר אלקטרוני*</label><br><br> -->
+                <input onblur="validateInputs('email')" type="email" id="email" name="email" placeholder="דואר אלקטרוני" required />
+                <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span>
 
-                    <div id="b">
-                        <button type="submit" id="myBtn"> שלח </button>
-                    </div><br><br>
-                    <p id="result">פרטים ליצירת קשר</p>
-                </form>
-            </div>
+                <div id="b">
+                    <button type="submit" id="myBtn"> שלח </button>
+                </div>
+                <p id="result">פרטים ליצירת קשר</p>
+            </form>
+        </div>
     </section>
     <section id="links" style="color: white;">
         <h4>קישורים חיצוניים</h4>
