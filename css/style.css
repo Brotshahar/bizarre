@@ -217,6 +217,7 @@ main #contact #b{
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
  }
 main #contact i{
     margin-right: 20px;
@@ -225,10 +226,12 @@ main #contact i{
 
  main #b {
     margin: 20px auto;
+  
  }
  main #b button{
-    width: 120px;
-    height: 30px;
+    text-align: center;
+    width: 160px;
+    height: 33px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -276,7 +279,7 @@ main #persons a:hover{
 }
 footer {
     display: flex;
-    color: rgb(208, 233, 255);
+    color: rgb(255, 255, 255);
     width: 80%;
     margin: 0px auto;
     margin-top: 50px;
@@ -287,13 +290,13 @@ footer {
 }
 
 footer #rights {
-    text-align: center;
+    text-align: left;
     padding: 30px;
 }
 footer #rights p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px rgb(199, 223, 243);
     margin: 20px;
 }
 main #h {
