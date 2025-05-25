@@ -290,10 +290,11 @@ footer {
 }
 
 footer #rights {
-    text-align: left;
+    text-align: center;
     padding: 30px;
 }
 footer #rights p {
+    font-size: 18PX;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgb(199, 223, 243);
