@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
 
 
-    result.innerHTML = `הטופס נשלח בהצלחה <i class="fa-solid fa-check" style="color: green ";></i>`;
+    // result.innerHTML = `הטופס נשלח בהצלחה <i class="fa-solid fa-check" style="color: green ";></i>`;
     form.reset();
     nameError.innerHTML = `<i class="fa-solid fa-check"></i>`;
     emailError.innerHTML = `<i class="fa-solid fa-check"></i>`;
@@ -86,7 +86,7 @@ function func001() {
     const emailinput = (mailvalue.value);
     console.groupCollapsed(emailinput)
     if (!emailReg.test(emailinput)) {
-        alert("טעות");
+        alert("דואר אלקטרוני שגוי");
         return;
     }
     else {

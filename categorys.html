@@ -288,69 +288,90 @@
     </div>
   </div>
   </div>
-  <section id="contact" style="color: white;">
+ <section  style="color: white;">
         <br>
         <h4 style="color: white; text-align: center; margin-bottom: 30px;">רוצים לסייע</h4>
         <div id="contact"
-            class="card mb-5 mx-auto text-bg-dark border-light p-5 d-flex justify-content-center text-center">
+            class="card mb-5 mx-auto text-bg-dark  p-5 d-flex justify-content-center text-center">
             <form>
+                 <p id="result">פרטים ליצירת קשר</p><br>
                 <!-- <label for="id_name"> שם מלא*</label><br><br> -->
-                <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" placeholder="שם מלא" required />
+                <input onblur="validateInputs('name')" type="text" id="id_name" name="id_name" placeholder="שם מלא"
+                    required />
                 <span id="nameError" class="error"><i class="fa-solid fa-check"></i></span>
 
                 <!-- <label for="id_phone"> טלפון נייד*</label><br><br> -->
-                <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone" placeholder="טלפון נייד" required />
+                <input onblur="validateInputs('phone')" type="text" id="id_phone" name="id_phone"
+                    placeholder="טלפון נייד" required />
                 <span id="phoneError" class="error"><i class="fa-solid fa-check"></i></span>
 
                 <!-- <label for="email">דואר אלקטרוני*</label><br><br> -->
-                <input onblur="validateInputs('email')" type="email" id="email" name="email" placeholder="דואר אלקטרוני" required />
-                <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span>
-
+                <input onblur="validateInputs('email')" type="email" id="email" name="email" placeholder="דואר אלקטרוני"
+                    required />
+                <span id="emailError" class="error"><i class="fa-solid fa-check"></i></span><br><br>
+               
                 <div id="b">
-                    <button type="submit" id="myBtn"> שלח </button>
+                    <button type="submit" id="myBtn"> שליחה </button>
                 </div>
-                <p id="result">פרטים ליצירת קשר</p>
+
             </form>
         </div>
     </section>
 
-  <section id="links" style="color: white;">
-    <h4>קישורים חיצוניים</h4>
-    <a href="https://www.nasa.gov/" target="_blank">NASA</a>
-    <a href="https://mufon.com/" target="_blank">MUFON</a>
-    <a href="https://www.seti.org/" target="_blank">SETI</a>
-    <a href="https://www.nsa.gov/" target="_blank">NSA</a>
-    <a href="https://www.cnes-geipan.fr/en" target="_blank">GEIPAN</a>
-    <a href="https://www.bufora.org/" target="_blank">BUFORA</a>
-    <a href="https://nuforc.org/" target="_blank">NUFORC</a>
-  </section>
-  <section id="persons" style="color: white;">
-    <h4>אישים חשובים, חוקרים, חושפי מידע ועוד</h4>
-    <a href="https://astronomy.fas.harvard.edu/people/avi-loeb" target="_blank">פרופסור אבי לוב</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%99%D7%9D_%D7%90%D7%A9%D7%93" target="_blank">חיים אשד</a>
-    <a href="https://en.wikipedia.org/wiki/Dorothy_Eady" target="_blank">דורותי אידי</a>
-    <a href="https://en.wikipedia.org/wiki/Edgar_Cayce" target="_blank">אדגר קייסי</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%99%D7%9A_%D7%A4%D7%95%D7%9F_%D7%93%D7%A0%D7%99%D7%A7%D7%9F"
-      target="_blank">אריק וון דניקן</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%99%D7%96%D7%A7_%D7%90%D7%A1%D7%99%D7%9E%D7%95%D7%91"
-      target="_blank">אייזיק אסימוב</a><br><br>
-    <a href="https://en.wikipedia.org/wiki/Linda_Moulton_Howe" target="_blank">לינדה מולטון האו</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%91_%D7%9C%D7%96%D7%A8" target="_blank">בוב לזאר</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%98%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%92"
-      target="_blank">אלן טיורינג</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%90%D7%95%D7%A4%D7%A0%D7%94%D7%99%D7%99%D7%9E%D7%A8"
-      target="_blank">רוברט אופנהיימר</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%95%D7%A8%D7%A0%D7%A8_%D7%A4%D7%95%D7%9F_%D7%91%D7%A8%D7%90%D7%95%D7%9F"
-      target="_blank">ורנר פון בראון</a>
-    <a href="https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%A7%D7%95%D7%9C%D7%94_%D7%98%D7%A1%D7%9C%D7%94"
-      target="_blank">ניקולה טסלה</a>
-  </section>
+    <!-- <section id="links" style="color: white;">
+        <h4>קישורים חיצוניים</h4>
+        <a href="https://www.nasa.gov/" target="_blank">NASA</a>
+        <a href="https://mufon.com/" target="_blank">MUFON</a>
+        <a href="https://www.seti.org/" target="_blank">SETI</a>
+        <a href="https://www.nsa.gov/" target="_blank">NSA</a>
+        <a href="https://www.cnes-geipan.fr/en" target="_blank">GEIPAN</a>
+        <a href="https://www.bufora.org/" target="_blank">BUFORA</a>
+        <a href="https://nuforc.org/" target="_blank">NUFORC</a>
+    </section>
+    <section id="persons" style="color: white;">
+        <h4>אישים חשובים, חוקרים, חושפי מידע ועוד</h4>
+        <a href="https://astronomy.fas.harvard.edu/people/avi-loeb" target="_blank">פרופסור אבי לוב</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%99%D7%9D_%D7%90%D7%A9%D7%93" target="_blank">חיים אשד</a>
+        <a href="https://en.wikipedia.org/wiki/Dorothy_Eady" target="_blank">דורותי אידי</a>
+        <a href="https://en.wikipedia.org/wiki/Edgar_Cayce" target="_blank">אדגר קייסי</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%99%D7%9A_%D7%A4%D7%95%D7%9F_%D7%93%D7%A0%D7%99%D7%A7%D7%9F"
+            target="_blank">אריק וון דניקן</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%99%D7%96%D7%A7_%D7%90%D7%A1%D7%99%D7%9E%D7%95%D7%91"
+            target="_blank">אייזיק אסימוב</a><br><br>
+        <a href="https://en.wikipedia.org/wiki/Linda_Moulton_Howe" target="_blank">לינדה מולטון האו</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%91_%D7%9C%D7%96%D7%A8" target="_blank">בוב לזאר</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%98%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%92"
+            target="_blank">אלן טיורינג</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%90%D7%95%D7%A4%D7%A0%D7%94%D7%99%D7%99%D7%9E%D7%A8"
+            target="_blank">רוברט אופנהיימר</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%95%D7%A8%D7%A0%D7%A8_%D7%A4%D7%95%D7%9F_%D7%91%D7%A8%D7%90%D7%95%D7%9F"
+            target="_blank">ורנר פון בראון</a>
+        <a href="https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%A7%D7%95%D7%9C%D7%94_%D7%98%D7%A1%D7%9C%D7%94"
+            target="_blank">ניקולה טסלה</a>
+    </section> -->
 </main>
 <footer>
-  <div id="rights">
-    <img src="./images/we.png" ; alt="we" width="150" height="120" />
-    <p> CopyRight <span id="year"></span> @ BIZARRE.Israel, All rights reserved</p>
-  </div>
+    <div id="rights">
+        <div id="mainlogo">
+            <img src="./images/Group 2.png" />
+        </div>
+        <div class="container d-flex justify-content-center py-5">
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-floating mx-2 " href="#!"  style="background-color: #000000; ">
+                <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-floating mx-2 " href="#!"  style="background-color: #000000; ">
+                <i class="fab fa-youtube"></i>
+            </button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-floating mx-2 " href="#!"  style="background-color: #000000; ">
+                <i class="fab fa-instagram"></i>
+            </button>
+            <button type="button" class="btn  btn-outline-secondary btn-lg btn-floating mx-2 " href="#!"  style="background-color: #000000; ">
+                <i class="fab fa-twitter"></i>
+            </button>
+        </div>
+        <hr>
+        <p> CopyRight <span id="year"></span> @ BIZARRE.Israel, All rights reserved</p>
+    </div>
 </footer>
 <script type="text/javascript" src="./js/one.js"></script>
 <script>

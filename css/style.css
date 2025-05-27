@@ -134,16 +134,17 @@ main #art02 {
     margin-bottom: 30PX;  
 }
 main #art02 button{
-    width: 120px;
-    height: 28px;
+    width: 160px;
+    height: 33px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 main #art02 button:hover{
     border:1px solid rgb(208, 233, 255) ;
+    color:  rgb(208, 233, 255);
 }
 main #art02 input{
     border-radius: 5px;
@@ -203,9 +204,10 @@ main #subjecthead {
 }
 
 main #contact{
-    width: 80%;
+    width: 70%;
     margin:  30px auto;  
     font-size: 18px;
+    border: 1px solid  rgb(208, 233, 255);
  }
 main #contact input{
     margin-right: 15px; 
@@ -221,7 +223,7 @@ main #contact #b{
  }
 main #contact i{
     margin-right: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
  }
 
  main #b {
@@ -240,6 +242,7 @@ main #contact i{
 }
 main #b button:hover{
     border:1px solid rgb(208, 233, 255) ;
+    color:  rgb(208, 233, 255);
 }
 main #links{
     width: 70%;
